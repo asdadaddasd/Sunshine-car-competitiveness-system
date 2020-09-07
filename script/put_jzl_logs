@@ -1,0 +1,3 @@
+#!/bin/bash
+newtime=`date +%Y-%m-%d`
+hdfs dfs -put /home/hadoop/jzl-logs/$newtime"" /jzl-logs/$newtime""
